@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86A0C46E25676B7400FBD6E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A0C46D25676B7400FBD6E9 /* AppDelegate.swift */; };
+		86A0C47025676B7400FBD6E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A0C46F25676B7400FBD6E9 /* SceneDelegate.swift */; };
+		86A0C47225676B7400FBD6E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A0C47125676B7400FBD6E9 /* ViewController.swift */; };
+		86A0C47525676B7400FBD6E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A0C47325676B7400FBD6E9 /* Main.storyboard */; };
+		86A0C47725676B7600FBD6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A0C47625676B7600FBD6E9 /* Assets.xcassets */; };
+		86A0C47A25676B7600FBD6E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A0C47825676B7600FBD6E9 /* LaunchScreen.storyboard */; };
+		86A0C48525676B7700FBD6E9 /* huruf_hijaiyahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A0C48425676B7700FBD6E9 /* huruf_hijaiyahTests.swift */; };
+		86A0C49025676B7700FBD6E9 /* huruf_hijaiyahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A0C48F25676B7700FBD6E9 /* huruf_hijaiyahUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86A0C48125676B7700FBD6E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86A0C46225676B7400FBD6E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86A0C46925676B7400FBD6E9;
+			remoteInfo = "huruf hijaiyah";
+		};
+		86A0C48C25676B7700FBD6E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86A0C46225676B7400FBD6E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86A0C46925676B7400FBD6E9;
+			remoteInfo = "huruf hijaiyah";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86A0C46A25676B7400FBD6E9 /* huruf hijaiyah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "huruf hijaiyah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A0C46D25676B7400FBD6E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86A0C46F25676B7400FBD6E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86A0C47125676B7400FBD6E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86A0C47425676B7400FBD6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86A0C47625676B7600FBD6E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86A0C47925676B7600FBD6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86A0C47B25676B7600FBD6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A0C48025676B7700FBD6E9 /* huruf hijaiyahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "huruf hijaiyahTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A0C48425676B7700FBD6E9 /* huruf_hijaiyahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = huruf_hijaiyahTests.swift; sourceTree = "<group>"; };
+		86A0C48625676B7700FBD6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A0C48B25676B7700FBD6E9 /* huruf hijaiyahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "huruf hijaiyahUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A0C48F25676B7700FBD6E9 /* huruf_hijaiyahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = huruf_hijaiyahUITests.swift; sourceTree = "<group>"; };
+		86A0C49125676B7700FBD6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86A0C46725676B7400FBD6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A0C47D25676B7700FBD6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A0C48825676B7700FBD6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86A0C46125676B7400FBD6E9 = {
+			isa = PBXGroup;
+			children = (
+				86A0C46C25676B7400FBD6E9 /* huruf hijaiyah */,
+				86A0C48325676B7700FBD6E9 /* huruf hijaiyahTests */,
+				86A0C48E25676B7700FBD6E9 /* huruf hijaiyahUITests */,
+				86A0C46B25676B7400FBD6E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86A0C46B25676B7400FBD6E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86A0C46A25676B7400FBD6E9 /* huruf hijaiyah.app */,
+				86A0C48025676B7700FBD6E9 /* huruf hijaiyahTests.xctest */,
+				86A0C48B25676B7700FBD6E9 /* huruf hijaiyahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86A0C46C25676B7400FBD6E9 /* huruf hijaiyah */ = {
+			isa = PBXGroup;
+			children = (
+				86A0C46D25676B7400FBD6E9 /* AppDelegate.swift */,
+				86A0C46F25676B7400FBD6E9 /* SceneDelegate.swift */,
+				86A0C47125676B7400FBD6E9 /* ViewController.swift */,
+				86A0C47325676B7400FBD6E9 /* Main.storyboard */,
+				86A0C47625676B7600FBD6E9 /* Assets.xcassets */,
+				86A0C47825676B7600FBD6E9 /* LaunchScreen.storyboard */,
+				86A0C47B25676B7600FBD6E9 /* Info.plist */,
+			);
+			path = "huruf hijaiyah";
+			sourceTree = "<group>";
+		};
+		86A0C48325676B7700FBD6E9 /* huruf hijaiyahTests */ = {
+			isa = PBXGroup;
+			children = (
+				86A0C48425676B7700FBD6E9 /* huruf_hijaiyahTests.swift */,
+				86A0C48625676B7700FBD6E9 /* Info.plist */,
+			);
+			path = "huruf hijaiyahTests";
+			sourceTree = "<group>";
+		};
+		86A0C48E25676B7700FBD6E9 /* huruf hijaiyahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86A0C48F25676B7700FBD6E9 /* huruf_hijaiyahUITests.swift */,
+				86A0C49125676B7700FBD6E9 /* Info.plist */,
+			);
+			path = "huruf hijaiyahUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86A0C46925676B7400FBD6E9 /* huruf hijaiyah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A0C49425676B7700FBD6E9 /* Build configuration list for PBXNativeTarget "huruf hijaiyah" */;
+			buildPhases = (
+				86A0C46625676B7400FBD6E9 /* Sources */,
+				86A0C46725676B7400FBD6E9 /* Frameworks */,
+				86A0C46825676B7400FBD6E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "huruf hijaiyah";
+			productName = "huruf hijaiyah";
+			productReference = 86A0C46A25676B7400FBD6E9 /* huruf hijaiyah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86A0C47F25676B7700FBD6E9 /* huruf hijaiyahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A0C49725676B7700FBD6E9 /* Build configuration list for PBXNativeTarget "huruf hijaiyahTests" */;
+			buildPhases = (
+				86A0C47C25676B7700FBD6E9 /* Sources */,
+				86A0C47D25676B7700FBD6E9 /* Frameworks */,
+				86A0C47E25676B7700FBD6E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86A0C48225676B7700FBD6E9 /* PBXTargetDependency */,
+			);
+			name = "huruf hijaiyahTests";
+			productName = "huruf hijaiyahTests";
+			productReference = 86A0C48025676B7700FBD6E9 /* huruf hijaiyahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86A0C48A25676B7700FBD6E9 /* huruf hijaiyahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A0C49A25676B7700FBD6E9 /* Build configuration list for PBXNativeTarget "huruf hijaiyahUITests" */;
+			buildPhases = (
+				86A0C48725676B7700FBD6E9 /* Sources */,
+				86A0C48825676B7700FBD6E9 /* Frameworks */,
+				86A0C48925676B7700FBD6E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86A0C48D25676B7700FBD6E9 /* PBXTargetDependency */,
+			);
+			name = "huruf hijaiyahUITests";
+			productName = "huruf hijaiyahUITests";
+			productReference = 86A0C48B25676B7700FBD6E9 /* huruf hijaiyahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86A0C46225676B7400FBD6E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					86A0C46925676B7400FBD6E9 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					86A0C47F25676B7700FBD6E9 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 86A0C46925676B7400FBD6E9;
+					};
+					86A0C48A25676B7700FBD6E9 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 86A0C46925676B7400FBD6E9;
+					};
+				};
+			};
+			buildConfigurationList = 86A0C46525676B7400FBD6E9 /* Build configuration list for PBXProject "huruf hijaiyah" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86A0C46125676B7400FBD6E9;
+			productRefGroup = 86A0C46B25676B7400FBD6E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86A0C46925676B7400FBD6E9 /* huruf hijaiyah */,
+				86A0C47F25676B7700FBD6E9 /* huruf hijaiyahTests */,
+				86A0C48A25676B7700FBD6E9 /* huruf hijaiyahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86A0C46825676B7400FBD6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A0C47A25676B7600FBD6E9 /* LaunchScreen.storyboard in Resources */,
+				86A0C47725676B7600FBD6E9 /* Assets.xcassets in Resources */,
+				86A0C47525676B7400FBD6E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A0C47E25676B7700FBD6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A0C48925676B7700FBD6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86A0C46625676B7400FBD6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A0C47225676B7400FBD6E9 /* ViewController.swift in Sources */,
+				86A0C46E25676B7400FBD6E9 /* AppDelegate.swift in Sources */,
+				86A0C47025676B7400FBD6E9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A0C47C25676B7700FBD6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A0C48525676B7700FBD6E9 /* huruf_hijaiyahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A0C48725676B7700FBD6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A0C49025676B7700FBD6E9 /* huruf_hijaiyahUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86A0C48225676B7700FBD6E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86A0C46925676B7400FBD6E9 /* huruf hijaiyah */;
+			targetProxy = 86A0C48125676B7700FBD6E9 /* PBXContainerItemProxy */;
+		};
+		86A0C48D25676B7700FBD6E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86A0C46925676B7400FBD6E9 /* huruf hijaiyah */;
+			targetProxy = 86A0C48C25676B7700FBD6E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86A0C47325676B7400FBD6E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86A0C47425676B7400FBD6E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86A0C47825676B7600FBD6E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86A0C47925676B7600FBD6E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86A0C49225676B7700FBD6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86A0C49325676B7700FBD6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86A0C49525676B7700FBD6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "huruf hijaiyah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.huruf-hijaiyah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86A0C49625676B7700FBD6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "huruf hijaiyah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.huruf-hijaiyah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86A0C49825676B7700FBD6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "huruf hijaiyahTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.huruf-hijaiyahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/huruf hijaiyah.app/huruf hijaiyah";
+			};
+			name = Debug;
+		};
+		86A0C49925676B7700FBD6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "huruf hijaiyahTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.huruf-hijaiyahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/huruf hijaiyah.app/huruf hijaiyah";
+			};
+			name = Release;
+		};
+		86A0C49B25676B7700FBD6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "huruf hijaiyahUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.huruf-hijaiyahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "huruf hijaiyah";
+			};
+			name = Debug;
+		};
+		86A0C49C25676B7700FBD6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "huruf hijaiyahUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.huruf-hijaiyahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "huruf hijaiyah";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86A0C46525676B7400FBD6E9 /* Build configuration list for PBXProject "huruf hijaiyah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A0C49225676B7700FBD6E9 /* Debug */,
+				86A0C49325676B7700FBD6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A0C49425676B7700FBD6E9 /* Build configuration list for PBXNativeTarget "huruf hijaiyah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A0C49525676B7700FBD6E9 /* Debug */,
+				86A0C49625676B7700FBD6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A0C49725676B7700FBD6E9 /* Build configuration list for PBXNativeTarget "huruf hijaiyahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A0C49825676B7700FBD6E9 /* Debug */,
+				86A0C49925676B7700FBD6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A0C49A25676B7700FBD6E9 /* Build configuration list for PBXNativeTarget "huruf hijaiyahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A0C49B25676B7700FBD6E9 /* Debug */,
+				86A0C49C25676B7700FBD6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86A0C46225676B7400FBD6E9 /* Project object */;
+}
