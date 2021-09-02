@@ -6,14 +6,27 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
-
+    var player: AVAudioPlayer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    }
+   
+    
+    @IBAction func hijaiyahBTN(_ sender: UIButton) {
+        playSound(sound: sender.currentTitle!)
+    
+    }
+    
+
+    func playSound(sound: String) {
+        let url = Bundle.main.url(forResource: sound, withExtension: "mp3")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player?.play()
     }
 
 }
-
